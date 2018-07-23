@@ -1,0 +1,8 @@
+char[] chars = "abcdefghijklmnopqrstuvwxyz01234567890....".toCharArray();
+
+System.out.println("char  unicode   hex      code");
+for (char c : chars){
+    System.out.println(String.format(
+            "'%s' : \\u%04x :  0x%04X : %s", c, (int) c, (int) c, (int) c));
+
+}
